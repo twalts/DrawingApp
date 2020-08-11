@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private var mImageButtonCurrentPaint : ImageButton? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        //I KNOW I SHOULDNT HAVE CODE IN MY MAINACTIVITY PLS FORGIVE ME :'(
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
