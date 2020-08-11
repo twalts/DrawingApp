@@ -7,4 +7,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ColorPalette">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:onClick">paintClicked</item>
+        <item name="android:src">@drawable/palette_normal</item>
+    </style>
+
 </resources>
